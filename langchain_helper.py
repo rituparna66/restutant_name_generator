@@ -51,7 +51,7 @@ def generate_restaurant_name_and_items(cuisine: str) -> dict:
     }
 
 
-# Optional: small test when running this file directly
+
 if __name__ == "__main__":
     result = generate_restaurant_name_and_items("Italian")
     print("Restaurant name:", result["restaurant_name"])
